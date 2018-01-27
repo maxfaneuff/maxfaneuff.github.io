@@ -1,81 +1,93 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-  <meta charset="UTF-8">
-  <title>Portfolio</title>
-	<link rel="stylesheet" type="text/css" href="assets/css/style2.css">
+	<title>Portfolio</title>
+	<meta charset="UTF-8">
+	<meta name="author" content="Max Faneuff">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 </head>
 
 <body>
 
-<header class="header">
-	
-		<h1 id="header_name">Max Faneuff</h1>
-			<div class="header_links">
-			<a href="#" id="about">About</a>
-			<a href="#" id="portfolio">Portfolio</a>
-			<a href="#" id="contact">Contact</a>
+<div class="container">
+	<div class="row">
+		<nav class="navbar navbar-inverse">
+		  <div class="container-fluid">
+		    <div class="navbar-header col-xs-6 col-lg-6">
+		      <a class="navbar-brand" href="#">Max Faneuff</a>
+		    </div>
+		    <ul class="nav navbar-nav col-xs-6 col-lg-6">
+		      <li class="col-xs-2 col-lg-2"><a href="#">About</a></li>
+		      <li class="col-xs-2 col-lg-2"><a href="#">Portfolio</a></li>
+		      <li class="col-xs-2 col-lg-2"><a href="#">Contact</a></li>
+		    </ul>
+		  </div>
+		</nav>
+	</div>
+</div>
+
+<div class="container">
+	<div class="row">
+		<div class="col-sm-12 col-lg-8">
+			<div class="jumbotron">
+			  <h1>Portfolio</h1>
+			  <div class="container">
+			  	<div class="row">
+			  		<div class="col-lg-6 col-sm-12">
+			  			<a href="#" target="_blank">
+						<img src="https://github.com/maxfaneuff/Basic-Portfolio/blob/master/assets/images/batter.jpg?raw=true" alt="batter" style="width:250px;height:200px"></a>
+						<a href="#" target="_blank" class="btn btn-info" role="button" style="width:150px;height:50px">Batter</a>
+					</div>
+					<div class="col-lg-6 col-sm-12">
+						<a href="#" class="picture mask-pic" target="_blank">
+						<img src="https://github.com/maxfaneuff/Basic-Portfolio/blob/master/assets/images/mask.jpg?raw=true" alt="Mask" style="width:250px;height:200px"></a>
+						<a href="#" target="_blank" class="btn btn-info" role="button" style="width:150px;height:50px">Mask</a>
+			  		</div>
+			  	</div>
+				<br><br>
+			  	<div class="row">
+			  		<div class="col-lg-6 col-sm-12">
+			  			<a href="#" class="picture meeting-pic" target= "_blank">
+						<img src="https://github.com/maxfaneuff/Basic-Portfolio/blob/master/assets/images/Meeting.jpg?raw=true" alt="Meeting" style="width:250px;height:200px"></a>
+						<a href="#" target="_blank" class="btn btn-info" role="button" style="width:150px;height:50px">Meeting</a>
+			  		</div>
+			  		<div class="col-lg-6 col-sm-12">
+			  			<a href="#" class="picture wire-pic" target="_blank">
+						<img src="https://github.com/maxfaneuff/Basic-Portfolio/blob/master/assets/images/wire.jpg?raw=true" alt="Wire" style="width:250px;height:200px"></a>
+						<a href="#" target="_blank" class="btn btn-info" role="button" style="width:150px;height:50px">Wire</a>
+			  		</div>
+			  	</div>
+			  </div>	
 			</div>
-	
-</header>
+		</div>
 
-<section class="portfolio">
-	<div class="portfolio_title">
-		<h1 id="portfolio_text">Portfolio</h1>
+		<div class="col-sm-12 col-lg-4">
+			<div class="panel panel-success">
+			  <div class="panel-heading">
+			    <h3 class="panel-title">Connect With Me</h3>
+			  </div>
+			  <div class="panel-body">
+			    <div class="row">
+			    	<div class="col-xs-4">
+			    		<a href="https://github.com/maxfaneuff" id="github" target="_blank">
+						<img src="https://cdn0.iconfinder.com/data/icons/octicons/1024/mark-github-128.png" alt="Github" style="width:50px;height:50px" ></a>
+					</div>
+					<div class="col-xs-4">
+						<a href="https://www.linkedin.com/in/maxfaneuff/" target="_blank">
+						<img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/square-linkedin-128.png" id="linkedin" alt="LinkedIn" style="width: 50px;height:50px"></a>
+					</div>
+					<div class="col-xs-4">
+						<a href="https://stackoverflow.com/users/8929983/max-faneuff?tab=profile" target="_blank">
+						<img src="https://cdn2.iconfinder.com/data/icons/social-icons-color/512/stackoverflow-128.png" id="stack" alt="Stack Overflow" style="height: 50px;width: 50px"></a>
+					</div>
+
+			    	</div>
+			    </div>
+			  </div>
+			</div>
+		</div>
 	</div>
-
-	<div class="pictures">
-		
-		
-		<a href="#" target="_blank">
-			<img src="https://github.com/maxfaneuff/Basic-Portfolio/blob/master/assets/images/batter.jpg?raw=true" alt="batter" style="width:250px;height:250px"></a>
-			<h3 id="batter_banner">Batter</h3>
-		
-		
-
-		
-		<a href="#" class="picture mask-pic" target="_blank">
-			<img src="https://github.com/maxfaneuff/Basic-Portfolio/blob/master/assets/images/mask.jpg?raw=true" alt="Mask" style="width:250px;height:250px"></a>
-			<h3 id="mask_banner">Mask</h3>
-
-
-		
-		<a href="#" class="picture meeting-pic" target= "_blank">
-			<img src="https://github.com/maxfaneuff/Basic-Portfolio/blob/master/assets/images/Meeting.jpg?raw=true" alt="Meeting" style="width:250px;height:250px"></a>
-			<h3 id="meeting_banner">Meeting</h3>
-		
-		
-		
-		<a href="#" class="picture wire-pic" target="_blank">
-			<img src="https://github.com/maxfaneuff/Basic-Portfolio/blob/master/assets/images/wire.jpg?raw=true" alt="Wire" style="width:250px;height:250px"></a>
-			<h3 id="wire_banner">Wire</h3>
-		
-
-	</div>
-
-
-</section>
-
-<section class= "connect">
-
-	<h2 id="connect_with_me">Connect with Max</h2>
-	
-	<div>
-	<a href="https://github.com/maxfaneuff" id="github" target="_blank">
-		<img src="https://cdn0.iconfinder.com/data/icons/octicons/1024/mark-github-128.png" alt="Github" style="width: 50px;height:50px" ></a>
-	<a href="https://www.linkedin.com/in/maxfaneuff/" target="_blank">
-		<img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/square-linkedin-128.png" id="linkedin" alt="LinkedIn" style="width: 50px;height:50px"></a>
-	<a href="https://stackoverflow.com/users/8929983/max-faneuff?tab=profile" target="_blank">
-		<img src="https://cdn2.iconfinder.com/data/icons/social-icons-color/512/stackoverflow-128.png" id="stack" alt="Stack Overflow" style="height: 50px;width: 50px"></a>
-	</div>
-
-
-</section>
-
-<footer>
-	<h3>Copyright &copy; 2018 Max Faneuff</h3>
-</footer>
-	
+</div>
 
 </body>
+</html>
