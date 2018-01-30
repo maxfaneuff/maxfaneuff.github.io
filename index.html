@@ -1,97 +1,64 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<title>About Me</title>
-	<meta charset="UTF-8">
-	<meta name="author" content="Max Faneuff">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <title>About Max Faneuff</title>
+  	<!-- <link rel="stylesheet" type="text/css" href="assets/css/reset.css"> -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 </head>
 
 <body>
-
-<!-- <nav class="navbar navbar-default">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="#">WebSiteName</a>
-    </div>
-    <ul class="nav navbar-nav">
-      <li class="active"><a href="#">Home</a></li>
-      <li><a href="#">Page 1</a></li>
-      <li><a href="#">Page 2</a></li>
-      <li><a href="#">Page 3</a></li>
-    </ul>
-  </div>
-</nav> -->
-
-<div class="container">
-
-<div class="row">
-	<nav class="navbar navbar-inverse">
-	  <div class="container-fluid">
-	    <div class="navbar-header col-xs-6 col-lg-6">
-	      <a class="navbar-brand" href="#">Max Faneuff</a>
-	    </div>
-	    <ul class="nav navbar-nav col-xs-6 col-lg-6">
-	      <li class="col-xs-2 col-lg-2"><a href="#">About</a></li>
-	      <li class="col-xs-2 col-lg-2"><a href="#">Portfolio</a></li>
-	      <li class="col-xs-2 col-lg-2"><a href="#">Contact</a></li>
-	    </ul>
-	  </div>
-	</nav>
-</div>
-
-</div>
-
-<div class="container">
-
-	<div class="row">
-		<div class="col-xs-12 col-md-8 col-lg-8">
-			<div class="jumbotron">
-				<div class="row">
-			 		<h1 class="col-xs-12 col-md-12 col-lg-12">About Me</h1>
-			 	</div>
-			 	<br><br>
-			 	<div class="row">
-			 		<div class="col-sm-12 col-md-4 col-lg-4">
-			 			<img id= "max_photo" src= "https://lh3.googleusercontent.com/-8X5BM5WqLB4/AAAAAAAAAAI/AAAAAAAAAD8/FdAGrR56Z9Q/s640/photo.jpg" alt= "Max Picture" style="width:200px;height:200px">	
-			 		</div>	
-			 		<div class="col-sm-12 col-md-6 col-md-offset-2 col-lg-8 col-lg-offset-0"> 
-			 			<!-- why does the md-offset affect the lg? -->
-
-						<p id="bio">Max Faneuff is a 27 year old web developer living in Raleigh, NC.  He studied at the UNC Coding Bootcamp, where he learned a full-stack skillset.  
-							<br><br>
-						This web portfolio highlights some of Max's best work, and is a gallery of what to expect from his labors.  Connect with Max on any of the platforms </p>
-			 		</div>	 		
-			 	</div>			 		  
-			</div>		
+<header>
+	<div class="header">
+		<h1 id="header_name">Max Faneuff</h1>
+		<div class="header_links">
+			<a href="https://maxfaneuff.github.io/Basic-Portfolio/#" id="about">About</a>
+			<a href="https://maxfaneuff.github.io/Basic-Portfolio/portfolio.html" id="portfolio" target="_blank">Portfolio</a>
+			<a href="https://maxfaneuff.github.io/Basic-Portfolio/contact.html" id="contact">Contact</a>
 		</div>
-		<div class="col-xs-12 col-md-4 col-lg-4">
-			<div class="panel panel-success">
-			  <div class="panel-heading">
-			    <h3 class="panel-title">Connect With Me</h3>
-			  </div>
-			  <div class="panel-body">
-			    <div class="row">
-			    	<div class="col-xs-4">
-			    		<a href="https://github.com/maxfaneuff" id="github" target="_blank">
-						<img src="https://cdn0.iconfinder.com/data/icons/octicons/1024/mark-github-128.png" alt="Github" style="width: 50px;height:50px" ></a>
-					</div>
-					<div class="col-xs-4">
-						<a href="https://www.linkedin.com/in/maxfaneuff/" target="_blank">
-						<img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/square-linkedin-128.png" id="linkedin" alt="LinkedIn" style="width: 50px;height:50px"></a>
-					</div>
-					<div class="col-xs-4">
-						<a href="https://stackoverflow.com/users/8929983/max-faneuff?tab=profile" target="_blank">
-						<img src="https://cdn2.iconfinder.com/data/icons/social-icons-color/512/stackoverflow-128.png" id="stack" alt="Stack Overflow" style="height: 50px;width: 50px"></a>
-					</div>
+	</div>
+</header>
 
-			    	</div>
-			    </div>
-			  </div>
-			</div>
-		</div>
-	</div>	
+<section class="about_me">
 
-</div>
+		<h2 id= "about_text">About Me</h2>
+		<img id= "max_photo" src= "https://lh3.googleusercontent.com/-8X5BM5WqLB4/AAAAAAAAAAI/AAAAAAAAAD8/FdAGrR56Z9Q/s640/photo.jpg" alt= "Max Picture" >
+
+		<br>
+		
+		<p id="bio">Max Faneuff is a 27 year old web developer living in Raleigh, NC.  He studied at the UNC Coding Bootcamp, where he learned a full-stack skillset.  
+			<br><br>
+		This web portfolio highlights some of Max's best work, and is a gallery of what to expect from his labors.  Connect with Max on any of the platforms </p>
+
+</section>
+
+<section class= "connect">
+
+	<h2 id="connect_with_me">Connect with Max</h2>
+	
+	<div class="icons">
+	<a href="https://github.com/maxfaneuff" target="_blank">
+		<img src="https://cdn0.iconfinder.com/data/icons/octicons/1024/mark-github-128.png" id="github" alt="Github" ></a>
+	<a href="https://www.linkedin.com/in/maxfaneuff/" target="_blank">
+		<img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/square-linkedin-128.png" id="linkedin" alt="LinkedIn"></a>
+	<a href="https://stackoverflow.com/users/8929983/max-faneuff?tab=profile" target="_blank">
+		<img src="https://cdn2.iconfinder.com/data/icons/social-icons-color/512/stackoverflow-128.png" id="stack" alt="Stack Overflow"></a>
+	</div>
+
+
+</section>
+
+<footer>
+	<h3 class="footer">Copyright &copy; Max Faneuff 2018</h3>
+</footer>
+
+
+
+
+
 </body>
+
 </html>

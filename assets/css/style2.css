@@ -1,0 +1,492 @@
+body {
+	width: 1000px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	background-color: #ffffff;
+	margin-left: 20px;
+	margin-right: 20px;
+	background-image: url("https://github.com/maxfaneuff/Basic-Portfolio/blob/master/assets/images/dust_scratches.png?raw=true")
+
+}
+
+a {
+	text-decoration: none;
+	color: #777777;
+}
+
+.header {
+	background-color: #ffffff;
+	border-bottom-style: solid;
+	border-width: 1px;
+	border-color: #cccccc;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	padding-bottom: 62px;
+	padding-top: 0;
+	float: left
+	width: 100%;
+	
+}
+
+#header_name {
+	color: white;
+	padding-top: 10px;
+	background-color: #4aaaa5;
+	width: 240px;
+	font-size: 28px;
+	margin-left: 20px;
+	text-align: center;
+	line-height: 52px;
+	float: left;
+	margin-top: 0px;
+
+
+}
+
+.header_links {
+	line-height: 70px;
+	float: right;
+	padding-right: 100px;
+	font-size: 15px
+	
+}
+
+#about {
+	margin-right: 20px;
+}
+
+#portfolio {
+	margin-right: 20px;
+}
+
+.portfolio {
+	background-color: #ffffff;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #cccccc;
+	margin-top: 20px;
+	width: 670px;
+	height: 800px;
+
+}
+
+
+
+.portfolio_title, .pictures {
+	margin-left: 20px;
+}
+
+.pictures {
+	position: relative;
+	margin-top: 40px;
+	
+}
+
+
+#portfolio_text {
+	color: #4aaaa5;
+	border-bottom-style: solid;
+	border-color: #cccccc;
+	margin-right: 40px;
+	padding-bottom: 20px;
+}
+	
+.batter-pic {
+	width: 250px;
+	height: 200px;
+
+}
+
+#batter_banner {
+	position: relative;
+	bottom: 75px;
+}
+
+.mask-pic {
+	width: 250px;
+	height: 200px;
+	position: relative;
+	left: 350px;
+	bottom: 280px;
+
+}
+
+#mask_banner {
+	position: relative;
+	left: 350px;
+	bottom: 355px;
+
+}
+
+.meeting-pic {
+	width: 250px;
+	height: 200px;
+	position: relative;
+	bottom: 300px;
+}
+
+#meeting_banner {
+	position: relative;
+	bottom: 375px;
+}
+
+.wire-pic {
+	width: 250px;
+	height: 200px;
+	position: relative;
+	bottom: 578px;
+	left: 350px;
+}
+
+#wire_banner {
+	position: relative;
+	bottom: 655px;
+	left: 350px;
+}
+
+#batter_pic, #mask_pic, #meeting_pic, #wire_pic {
+	height: 200px;
+	width: 250px;
+}
+#batter_banner, #mask_banner, #meeting_banner, #wire_banner {
+	color: white;
+	background-color: #4aaaa5;
+	width: 250px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+
+}
+
+.connect {
+	background-color: #ffffff;
+	width: 270px;
+	float: right;
+	position: relative;
+	bottom: 800px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #cccccc;
+}
+
+#connect_with_me {
+	text-align: center;
+	color: #4aaaa5;
+	border-bottom-style: solid;
+	border-width: 1px;
+	border-color: #cccccc;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding-bottom: 20px;
+}
+
+#github, #linkedin, #stack {
+	height: 50px;
+	width: 50px;
+}
+
+#github {
+	margin-left: 50px;
+}
+
+footer {
+	text-align: center;
+	background-color: #666666;
+	height: 60px;
+	border-top-style: solid;
+	border-top-color: #4aaaa5;
+	border-top-width: 5px;
+	color: #d4d4d4;
+	position: relative;
+	font-size: 10px;
+	line-height: 40px;
+	margin-top: 10px;
+}
+	
+@media screen and (max-width: 640px) {
+
+	body {
+		width: 640px;
+		height: 600px;
+		padding-right: 20px;
+		padding-left: 20px;
+		position: relative;
+	}
+	header {
+		width:  100%;
+		position: static;
+	}
+	.header {
+		position: relative;
+		height: 35px;
+		width: 100%;
+		
+	}
+
+	#header_name {
+		width: 640px;
+		margin: 0;
+		position: relative;
+		
+
+	}
+
+	.header_links {
+		position: relative;
+		bottom: 15px;
+		right: 120px;
+	}
+	.portfolio {
+		width: 100%;
+		height: 100%;
+		padding-bottom: 400px;
+		position: relative;
+	}
+
+	.portfolio_title {
+		text-align: center;
+		position: relative;
+		top: 20px;
+	}
+
+	#portfolio_text {
+		border-width: 0px;
+
+	}
+
+	.pictures {
+		position: relative;
+
+	}
+
+	img {
+		position: absolute;
+		height: 200px;
+		width: 250px;
+
+	}
+
+	.batter-pic {
+		position: absolute;
+		left: 175px;
+		top: 10px;
+		;
+	}
+
+	.mask-pic {
+		top: 225px;
+		left: 175px;
+	}
+
+	.meeting-pic {
+		top: 450px;
+		left: 175px;
+	}
+
+	.wire-pic {
+		top: 675px;
+		left: 175px;
+	}
+
+	#batter_banner, #mask_banner, #meeting_banner, #wire_banner {
+		position: absolute;
+
+	}
+
+	#batter_banner {
+		top: 151px;
+		left: 175px;
+	}
+
+	#mask_banner {
+		top: 367px;
+		left: 175px;
+	}
+
+	#meeting_banner {
+		top: 591px;
+		left: 175px;
+	}
+
+	#wire_banner {
+		top: 817px;
+		left: 175px;
+	}
+	
+	#github, #linkedin, #stack {
+		position: absolute;
+		top: 80px;
+		height: 50px;
+		width: 50px;
+	}
+
+	#github {
+		height: 50px;
+	}
+
+	#linkedin {
+		left: 115px;
+	}
+
+	#stack {
+		left: 170px;
+	}
+	.connect {
+		height: 140px;
+		position: relative;
+		top: 25px;
+		right: 150px;
+/*		float: left;
+*/
+	}
+
+	footer {
+		position: relative;
+		top: 200px;
+	}
+
+	#copyright_text {
+		text-align: center;
+		position: absolute;
+		left: 220px;
+	}
+}
+
+@media screen and (max-width: 768px) and (min-width: 641px) {
+	body {
+		width: 100%;
+		height: 100%;
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+
+	header {
+		width: 95%;
+
+	}
+
+	.portfolio {
+		position: relative;
+		height: 600px;
+	}
+
+	.connect {
+		width: 95%;
+		position: relative;
+		top: 10px;
+		right: 20px;
+		margin-right: 15px;
+	}
+
+	#github, #linkedin, #stack {
+		position: relative;
+		left: 225px;
+		bottom: 5px;
+	}
+
+	footer {
+		width: 95%;
+		position: relative;
+		top: 155px;
+	}
+
+	#copyright_text {
+		position: absolute;
+		left: 260px;
+		top: 10px;
+		margin: 0;
+	}
+}
+@media screen and (max-width: 980px) and (min-width: 769px) {
+
+	body {
+		width: 100%;
+		height: 100%;
+		margin-left: 20px;
+		margin-right: 20px;
+
+		
+	}
+	
+	header {
+		width: 95%;
+	}
+
+	.portfolio {
+		width: 60%;
+		height: 100%;
+		position: relative;
+	}
+
+	#portfolio_text {
+		text-align: center;
+	}
+
+	#batter_pic, #mask_pic, #meeting_pic, #wire_pic, #batter_banner, #mask_banner, #meeting_banner, #wire_banner {
+		position: relative;
+	}
+
+	#batter_pic, #batter_banner {
+		position: relative;
+		left: 100px;
+	}
+
+	#mask_pic {
+		position: relative;
+		top: 225px;
+		right: 250px;
+	}
+
+	#meeting_pic {
+		position: relative;
+		top: 190px;
+		left: 100px;
+	}
+
+	#wire_pic {
+		position: relative;
+		top: 415px;
+		right: 250px;
+	}
+
+	#mask_banner {
+		position: relative;
+		bottom: 125px;
+		left: 100px;
+	}
+
+	#meeting_banner {
+		position: relative;
+		bottom: 185px;
+		left: 100px;
+	}
+
+	#wire_banner {
+		position: relative;
+		bottom: 240px;
+		left: 100px;
+	}
+	.connect {
+		position: relative;
+		width: 30%;
+		bottom: 1235px;
+		right: 50px;
+		z-index: 1;
+
+	}
+
+	#github, #linkedin, #stack {
+		position: relative;
+		left: 10px;
+		
+	}
+
+	footer {
+		position: relative;
+		width: 95%;
+		top: 150px;
+	}
+
+	#copyright_text {
+		position: relative;
+		left: 100px;
+	}
+}
